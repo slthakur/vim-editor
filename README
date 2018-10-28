@@ -1,0 +1,37 @@
+Name: Sagar Thakur
+Roll no: 20172103
+
+Modes implemented:
+1. Normal mode
+2. Insert mode
+3. Command mode
+
+Features implemented:
+
+Normal Mode
+1. Open / Load.
+2. Navigation using h, j, k, l character keys and arrow keys.
+3. Single character replace using 'r'.
+4. Go to first line of file using ‘gg’.
+5. Go to last line of file using ‘G’.
+
+Insert/Edit Mode
+1. Insertion of keys anywhere in the file.
+2. Deletion
+
+Command Mode
+1. File Save using “:w” command.
+2. Quitting (normally) using “:q” command.
+3. Quitting (forcefully) using ":q!" command.
+4. Running shell/editor commands shell using “:!<any linux command>”.
+
+Switching between modes:
+1. Normal to Insert/Edit mode - on pressing key ‘i’.
+2. Insert/Edit to Normal mode OR Command Line to Normal mode - on pressing key
+3. Normal to command-line mode - by prefixing “:” in front of your command.
+4. Last line displays the current mode.
+
+Compile the code using command - make svim
+Run the editor using command - ./svim <filename>
+
+--- This readme file was created using svim, not vim :) ---
